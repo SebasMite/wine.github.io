@@ -1,0 +1,79 @@
+/* BASE ======= */
+
+:root {
+    --text-black: black;
+    --text-gray: gray;
+    --text-white: white;
+}
+
+body {
+    font-family: 'Ruda', sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.bg-primary {
+    background-color: white !important;
+}
+
+.bg-dark {
+    background-color: black !important;
+}
+
+.btn-primary {
+    color: var(--text-white);
+    background-color: var(--text-black) !important;
+    border-radius: 35px;
+}
+
+.fondo {
+    /* background: url('img/fondo1.jpg'); */
+    /* height: 900px; */
+    /* background-position: center;
+    background-size: cover; */
+}
+
+.fondofade {
+    background-color: rgba(0, 0, 0, .5);
+    height: 100vh;
+}
+
+.btn {
+    background-color: black;
+}
+
+
+/* NAVBAR ====================== */
+
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show>.nav-link {
+    color: var(--text-gray)
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: var(--text-black);
+}
+
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: var(--text-black);
+    text-decoration: underline;
+}
+
+.custom_navbar {
+    letter-spacing: 3px;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .navbar-brand {
+        margin: auto;
+        padding-left: 56px;
+    }
+}
+
+
+/* HERO SECTION ======================== */
